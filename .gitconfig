@@ -1,12 +1,12 @@
 [user]
-	user = Cale Newman
-	email = newman.cale@gmail.com
+  user = Cale Newman
+  email = newman.cale@gmail.com
 [push]
-	default = simple
+  default = simple
 [core]
-	editor = vim
+  editor = vim
 [help]
-	autocorrect = 1
+  autocorrect = 1
 [alias]
   st = status
   co = checkout
@@ -15,12 +15,13 @@
   amend = commit --amend
   aa = add --all
   sla = log --oneline --decorate --graph
-	glog = log -E -i --grep
+  glog = log -E -i --grep
+  pom = push origin master
 [push]
-	default = current
+  default = current
 [diff]
 [color]
-    ui = auto
+  ui = auto
   [color "branch"]
     current = yellow reverse
     local = yellow

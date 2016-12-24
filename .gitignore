@@ -10,6 +10,7 @@
 /.heroku
 /.npm
 /.ssh
+/.vim/.netrwhist
 /.viminfo
 
 /Applications
