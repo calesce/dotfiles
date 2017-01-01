@@ -47,3 +47,7 @@ alias tab="cd ~/code/tab-editor"
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# wtfmacos
+/usr/bin/ssh-add -K ~/.ssh/id_rsa
+
